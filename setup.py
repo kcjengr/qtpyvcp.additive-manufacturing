@@ -7,15 +7,15 @@ with open("entry_points.ini", "r") as fh:
     entry_points = fh.read()
 
 setup(
-    name="qtpyvcp.custom-widgets-template",
+    name="qtpyvcp.additive-manufacturing",
     version="0.0.1",
-    author="Kurt Jacobson",
+    author="TurBoss",
     author_email="",
-    description="Template repository for providing custom QtPyVCP widgets.",
+    description="Additive manufacturing widgets for QtPyVCP.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/kcjengr/qtpyvcp.custom-widgets-template",
-    download_url="https://github.com/kcjengr/qtpyvcp.custom-widgets-template/tarball/master",
+    url="https://github.com/kcjengr/qtpyvcp.additive-manufacturing",
+    download_url="https://github.com/kcjengr/qtpyvcp.additive-manufacturing/tarball/master",
     packages=find_packages(),
     include_package_data=True,
     entry_points=entry_points

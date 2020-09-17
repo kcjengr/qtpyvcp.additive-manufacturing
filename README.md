@@ -1,4 +1,3 @@
- # QtPyVCP Custom Widget Template
+ # Additive MAnufacturing Widgets
 
-This repository serves as a template for creating custom
-widget plugins for QtPyVCP.
+This repository will contain several widgets like layer slicing
