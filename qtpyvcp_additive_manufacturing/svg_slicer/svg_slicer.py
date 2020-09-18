@@ -20,7 +20,7 @@ IN_DESIGNER = os.getenv('DESIGNER', False)
 class SvgSlicer(QSvgWidget, HALWidget):
     """HAL Connections for SvgSlicer
 
-    SvgSlicer will display layers according to `u32` and `s32` HAL pin values.
+    SvgSlicer will display layers according to `u32` HAL pin values.
 
     .. table:: HAL Pins
 
